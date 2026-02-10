@@ -289,3 +289,4 @@ slope_genetic_non_continuous, _, _, _, _ = linregress(range(n_years), np.mean(av
 slope_plastic_non_continuous, _, _, _, _ = linregress(range(n_years), np.mean(avg_plastic_intermittent_non_continuous, axis=1))
 print(f"Rate of Change (Slope) for Genetic Traits (Non-continuous Interruption): {slope_genetic_non_continuous}")
 print(f"Rate of Change (Slope) for Plastic Traits (Non-continuous Interruption): {slope_plastic_non_continuous}")
+
